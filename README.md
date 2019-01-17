@@ -51,9 +51,17 @@ Then we shall break down the types of enviorments!
   - Multi Agent type 2 : Multiple AI working together
   
 Since all types are 2 options only, we can create a True, False table. 
-Fully obeservable : 
-Deterministic : 
-Episodic :
-Static : 
-Discrete : 
-Single Agent : 
+
+====================**Solitare** 
+
+Fully obeservable :     True
+
+Deterministic     :     True
+
+Episodic          :     False
+
+Static            :     True
+
+Discrete          :     True
+
+Single Agent      :     True
