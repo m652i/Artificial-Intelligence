@@ -51,8 +51,9 @@ Then we shall break down the types of enviorments!
   - Multi Agent type 2 : Multiple AI working together
   
 Since all types are 2 options only, we can create a True, False table. 
+(My apologies for the mess, but I didn't find table formats in the format guide.)
 
-===============**Solitare**====**Chess**====**Backgammon**==**Poker**==**Self Driving**
+==============**Solitare**==**Chess**====**Backgammon**==**Poker**==**Self Driving**
 
 Fully obeservable====True======True======True======False======False
 
@@ -65,3 +66,6 @@ Static ============True======True======False======False======False
 Discrete===========True======False======True======False======False
 
 Single Agent========True======False======False======False======False
+
+And so following this table, we can see the more Falses, the more difficult it is for the AI to perform well. 
+(Which is pretty understandable, since answering move Trues means a more static enviornment and vise versa. A complicated enviornment of course is much more difficult for AI to handle.)
