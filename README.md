@@ -54,14 +54,14 @@ Since all types are 2 options only, we can create a True, False table.
 
 ====================**Solitare** 
 
-Fully obeservable :     True
+Fully obeservable-:     True
 
-Deterministic     :     True
+Deterministic-----:     True
 
-Episodic          :     False
+Episodic----------:     False
 
-Static            :     True
+Static------------:     True
 
-Discrete          :     True
+Discrete----------:     True
 
-Single Agent      :     True
+Single Agent------:     True
