@@ -58,10 +58,10 @@ Fully obeservable====True====True
 
 Deterministic=======True====True
 
-Episodic============False====False
+Episodic==========False====False
 
-Static.=============True====True
+Static.============True====True
 
-Discrete.============True====False
+Discrete.==========True====False
 
-Single Agent=========True====False
+Single Agent========True====False
