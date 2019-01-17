@@ -35,3 +35,5 @@ Then we shall break down the types of enviorments!
 - Episodic vs Squential
   - Chess vs Poker (Again)
     > Chess AI can look at the current board and determine the best move, a poker AI will have to remember the raises and previous bets to determine best move
+  - CT scan vs Self Driving car
+    > A better example : One shot action, requires no previous memory vs needing to remember all the previous paths taken.
