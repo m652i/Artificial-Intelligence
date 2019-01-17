@@ -54,14 +54,14 @@ Since all types are 2 options only, we can create a True, False table.
 
 ===============**Solitare**====**Chess**
 
-Fully obeservable====True.....True
+Fully obeservable====True====True
 
-Deterministic========True.....True
+Deterministic=======True====True
 
-Episodic=============False....False
+Episodic============False====False
 
-Static.==============True.....True
+Static.=============True====True
 
-Discrete.============True.....False
+Discrete.============True====False
 
-Single Agent=========True.....False
+Single Agent=========True====False
