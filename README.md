@@ -52,16 +52,16 @@ Then we shall break down the types of enviorments!
   
 Since all types are 2 options only, we can create a True, False table. 
 
-====================**Solitare** 
+====================**Solitare**====**Chess**
 
-Fully obeservable-:     True
+Fully obeservable.:.....True.....True
 
-Deterministic-----:     True
+Deterministic.....:.....True.....True
 
-Episodic----------:     False
+Episodic..........:.....False....False
 
-Static------------:     True
+Static............:.....True.....True
 
-Discrete----------:     True
+Discrete..........:.....True.....False
 
-Single Agent------:     True
+Single Agent......:.....True.....False
