@@ -28,4 +28,4 @@ doesn’t capture the importance of sequencing tiles (putting them in the right 
 h2(N) = sum of the (Manhattan) distances of every tile to its goal position
 h2(s) = 4 + 2 + 2 + 3 + 3 + 0 + 2 + 2 = 18
 
-Code will be uploaded soon. 
+Code will be uploaded next week! (Working on it now.)
