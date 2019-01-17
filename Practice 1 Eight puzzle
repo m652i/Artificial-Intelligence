@@ -1,0 +1,31 @@
+Practice 1
+
+Eight Puzzle
+
+A sliding puzzle that  consists  of a frame of numbered square tiles in random order with one tile missing.
+The puzzle also exists in other sizes. 
+If the size is 4×4 tiles, the puzzle is called the 15-puzzle.
+
+The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.
+
+•States : Integer location of tiles
+•Operators : Move blank left, right, up, down
+•Goal Test :  Goal state (given)
+•Path Cost : One per move
+
+
+HEURISTICS FOR 8-PUZZLE PROBLEM
+In total, there are a possible of 9! or 362,880 possible states. 
+However, using heuristic function, it is possible to reduce the number of visited states to less than 50.
+Some possible heuristics for 8-Puzzle:
+h1(n) = no. of misplaced tiles
+may have many plateaus (indistinguishable states)
+doesn’t captures the number of moves to get to the right place
+h2(n) = sum of Manhattan distances (i.e., no. of squares from desired location of each tile)
+doesn’t capture the importance of sequencing tiles (putting them in the right order)
+
+(N) = number of misplaced tiles h1(s) = 7
+h2(N) = sum of the (Manhattan) distances of every tile to its goal position
+h2(s) = 4 + 2 + 2 + 3 + 3 + 0 + 2 + 2 = 18
+
+Code will be uploaded soon. 
