@@ -42,10 +42,18 @@ Then we shall break down the types of enviorments!
   - Chess board vs Roads
     > The Chess board will not change, the public road is fill with constant uncertainties. 
 - Discrete vs Continuous
-  >If the enviornment can be divided into sections (percepts and actions).
-  >A path finding agls that can be sectioned vs 1 path in continuous.
+    >If the enviornment can be divided into sections (percepts and actions).
+    >A path finding agls that can be sectioned vs 1 path in continuous.
 - Single Agent vs Multi Agent
   - Single Agent : 8 puzzle, sudoku, solitare, etc. 
   - Multi Agent type 1 : Chess, Poker, etc.
     > The other agent is human
   - Multi Agent type 2 : Multiple AI working together
+  
+Since all types are 2 options only, we can create a True, False table. 
+Fully obeservable : 
+Deterministic : 
+Episodic :
+Static : 
+Discrete : 
+Single Agent : 
