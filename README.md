@@ -69,3 +69,5 @@ Single Agent========True======False======False======False======False
 
 And so following this table, we can see the more Falses, the more difficult it is for the AI to perform well. 
 (Which is pretty understandable, since answering move Trues means a more static enviornment and vise versa. A complicated enviornment of course is much more difficult for AI to handle.)
+
+But taking the time before starting AI projects and breaking it down into these will really help with the decisions on how to approach building the right AI for the job!
