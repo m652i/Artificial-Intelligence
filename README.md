@@ -24,7 +24,10 @@ Or self driving cars :
 - Actuators : Steering, braking, lights, signals, wipers, etc. 
 - Sensors : Camera, motion sensors, G-force sensors etc. 
 
-Then we shall break down the types of enviorments!
+Then we shall break down the types of enviorments! 
+
+*Some enviorments might not be clear which type it falls into, but **we will have to** decide which type we choose our AI to be.*
+
 - Fully obeservable vs Not fully observable
   - Chess vs Poker 
     > Seeing the whole board vs not seeing opponents hand
@@ -33,7 +36,16 @@ Then we shall break down the types of enviorments!
     > Whether if the next move is directly determined by outcome of the actuators. 
     > Moving a piece, the piece moves to desired location *vs.* throwing a dice, outcome is a random number.
 - Episodic vs Squential
-  - Chess vs Poker (Again)
-    > Chess AI can look at the current board and determine the best move, a poker AI will have to remember the raises and previous bets to determine best move
   - CT scan vs Self Driving car
-    > A better example : One shot action, requires no previous memory vs needing to remember all the previous paths taken.
+    > One shot action that requires no previous memory vs needing to remember all the previous paths taken.
+- Static vs Dynamic
+  - Chess board vs Roads
+    > The Chess board will not change, the public road is fill with constant uncertainties. 
+- Discrete vs Continuous
+  >If the enviornment can be divided into sections (percepts and actions).
+  >A path finding agls that can be sectioned vs 1 path in continuous.
+- Single Agent vs Multi Agent
+  - Single Agent : 8 puzzle, sudoku, solitare, etc. 
+  - Multi Agent type 1 : Chess, Poker, etc.
+    > The other agent is human
+  - Multi Agent type 2 : Multiple AI working together
