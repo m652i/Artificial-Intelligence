@@ -31,5 +31,7 @@ Then we shall break down the types of enviorments!
 - Deterministic vs Stochastic
   - Chess vs Craps
     > Whether if the next move is directly determined by outcome of the actuators. 
-    
-    > Moving a piece, the piece moves to desired location vs throwing a dice, outcome is a random number. 
+    > Moving a piece, the piece moves to desired location *vs.* throwing a dice, outcome is a random number.
+- Episodic vs Squential
+  - Chess vs Poker (Again)
+    > Chess AI can look at the current board and determine the best move, a poker AI will have to remember the raises and previous bets to determine best move
