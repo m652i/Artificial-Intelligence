@@ -52,16 +52,16 @@ Then we shall break down the types of enviorments!
   
 Since all types are 2 options only, we can create a True, False table. 
 
-===============**Solitare**====**Chess**
+===============**Solitare**====**Chess**====**Backgammon**
 
-Fully obeservable====True====True
+Fully obeservable====True======True======True
 
-Deterministic=======True====True
+Deterministic=======True======True======False
 
-Episodic==========False====False
+Episodic==========False======False======False
 
-Static============True====True
+Static ============True======True======False
 
-Discrete===========True====False
+Discrete===========True======False======True
 
-Single Agent========True====False
+Single Agent========True======False======False
